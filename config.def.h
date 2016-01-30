@@ -7,7 +7,7 @@
  */
 // static char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 static char font[] = "Inconsolata for Powerline:pixelsize=16:antialias=false";
-static int borderpx = 2;
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -43,8 +43,8 @@ static unsigned int tripleclicktimeout = 600;
 static int allowaltscreen = 1;
 
 /* frames per second st should at maximum draw to the screen */
-static unsigned int xfps = 120;
-static unsigned int actionfps = 30;
+static unsigned int xfps = 240;
+static unsigned int actionfps = 60;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
