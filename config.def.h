@@ -7,7 +7,7 @@
  */
 // static char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 static char font[] = "Inconsolata for Powerline:pixelsize=16:antialias=false";
-static int borderpx = 1;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
