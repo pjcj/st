@@ -323,8 +323,9 @@ static Key key[] = {
 	{ XK_Insert,        ShiftMask,      "\033[2;2~",    +1,    0,    0},
 	{ XK_Insert,        ControlMask,    "\033[L",       -1,    0,    0},
 	{ XK_Insert,        ControlMask,    "\033[2;5~",    +1,    0,    0},
-	{ XK_Insert,        XK_ANY_MOD,     "\033[4h",      -1,    0,    0},
+	/* { XK_Insert,        XK_ANY_MOD,     "\033[4h",      -1,    0,    0}, */
 	{ XK_Insert,        XK_ANY_MOD,     "\033[2~",      +1,    0,    0},
+	{ XK_Insert,        XK_ANY_MOD,     "\033[2~",       0,    0,    0},
 	{ XK_Delete,        ControlMask,    "\033[M",       -1,    0,    0},
 	{ XK_Delete,        ControlMask,    "\033[3;5~",    +1,    0,    0},
 	{ XK_Delete,        ShiftMask,      "\033[2K",      -1,    0,    0},
