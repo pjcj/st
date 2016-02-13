@@ -5,8 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-/* static char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true"; */
-static char font[] = "Inconsolata for Powerline:pixelsize=16:antialias=false";
+static char font[] =
+    /* "Liberation Mono:pixelsize=12" */
+    "Inconsolata for Powerline:pixelsize=16:"
+    /* "antialias=false"; */
+    "antialias=true:hintstyle=3:autohint=true";
 static int borderpx = 0;
 
 /*
