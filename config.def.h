@@ -39,8 +39,8 @@ static float chscale = 1.0;
 static char worddelimiters[] = " `'‘’\"()[]{}<>";
 
 /* selection timeouts (in milliseconds) */
-static unsigned int doubleclicktimeout = 300;
-static unsigned int tripleclicktimeout = 600;
+static unsigned int doubleclicktimeout = 500;
+static unsigned int tripleclicktimeout = 1000;
 
 /* alt screens */
 static int allowaltscreen = 1;
