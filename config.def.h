@@ -7,9 +7,9 @@
  */
 static char font[] =
     /* "Liberation Mono:pixelsize=12" */
-    "Inconsolata for Powerline:pixelsize=16:"
-    /* "antialias=false"; */
-    "antialias=true:hintstyle=3:autohint=true";
+    "Inconsolata for Powerline:pixelsize=20:"
+    "antialias=false";
+    /* "antialias=true:hintstyle=3:autohint=true"; */
 static int borderpx = 0;
 
 /*
